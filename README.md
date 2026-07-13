@@ -76,8 +76,8 @@ Where:
 | $R_{t+1}$ | Reward received after taking action $A_t$ |
 | $S_{t+1}$ | Next state |
 | $A_{t+1}$ | Next action selected using the current policy |
-| $alpha$ | Learning rate |
-| $gamma$ | Discount factor |
+| $\alpha$ | Learning rate |
+| $\gamma$ | Discount factor |
 | $Q(s,a)$ | Action-value function |
 
 ---
@@ -105,7 +105,7 @@ $$
 
 1. Create the Gymnasium `FrozenLake-v1` environment.
 2. Initialize the Q-table with zeros.
-3. Set the learning rate \(\alpha\), discount factor \(\gamma\), and exploration rate \(\epsilon\).
+3. Set the learning rate $\alpha$, discount factor $\gamma$, and exploration rate $\epsilon$.
 4. For each episode:
    - Reset the environment.
    - Select the first action using epsilon-greedy policy.
